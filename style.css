@@ -232,10 +232,10 @@ p{
 }
 #signature-container {
    /* background-color: #ffc107; /* Set a fun background color */
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
     /*margin-left: 10%;*/
 }
 
