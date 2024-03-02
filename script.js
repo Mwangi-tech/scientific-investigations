@@ -107,7 +107,7 @@ const questions = [
     
     {
         question: "Learners were taken through an educational tour in an instituition. During the tour they came across the symbol shown below.",
-        image: "image.jpg", 
+        //image: "image.jpg", 
         mainQuestion:"Which health hazard does the symbol represent? (KNEC 2023 No.2)",
         answers: [
             {text: "Flammable", correct: true},
