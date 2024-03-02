@@ -226,10 +226,7 @@ p{
 .intro ul li span.light {
     color: #3c1eaa; /* Use your preferred highlight color */
 }
-#signature {
-    text-align: center;
-    margin-top: 20px;
-}
+
 #signature-container {
    /* background-color: #ffc107; /* Set a fun background color */
     padding: 10px;
@@ -243,6 +240,10 @@ p{
     font-family: 'Comic Sans MS', cursive; /* Use a playful font */
     color: #0077cc; /* Set a vibrant color */
     margin-bottom: 5px;
+}
+img {
+    max-width: 100%; /* Ensure images do not exceed the width of their container */
+    height: auto; /* Maintain the aspect ratio */
 }
 
 #signature p {
