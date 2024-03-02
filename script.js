@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const imageElement = document.createElement("img");
             imageElement.src = currentQuestion.image;
             imageElement.alt = "Question Image";
-            imageElement.classList.add("question-image");
+            imageElement.classList.add("question-image", "img-fluid");
             answerButtons.appendChild(imageElement);
         }
 
