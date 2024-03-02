@@ -56,7 +56,9 @@ p{
     background: #fff;
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
+    margin-top: 50px;
+    margin: 50px auto 0;
+    margin-bottom: 50px;
     border-radius: 10px;
     padding: 30px;
 }
@@ -123,11 +125,11 @@ p{
 .incorrect{
     background: #fd0e0e;
 }
-.question-image{
+.question-image {
     max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto; /*Maintain the image's aspect ratio */
-   /* display: block;  Remove any extra spacing below the image */
-    margin-left: 90px ; /* Add some margin for better spacing */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Make the image a block element to remove any extra spacing below */
+    margin: 0 auto; /* Center the image horizontally */
     border-radius: 8px; /* Add rounded corners to the image */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
 }
